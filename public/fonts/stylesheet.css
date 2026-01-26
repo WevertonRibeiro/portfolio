@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Google Sans Code';
+    src: url('GoogleSansCode-ExtraBold.woff2') format('woff2'),
+        url('GoogleSansCode-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Code';
+    src: url('GoogleSansCode-Light.woff2') format('woff2'),
+        url('GoogleSansCode-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Code';
+    src: url('GoogleSansCode-Bold.woff2') format('woff2'),
+        url('GoogleSansCode-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Code';
+    src: url('GoogleSansCode-SemiBold.woff2') format('woff2'),
+        url('GoogleSansCode-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Code';
+    src: url('GoogleSansCode-Regular.woff2') format('woff2'),
+        url('GoogleSansCode-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Code';
+    src: url('GoogleSansCode-Medium.woff2') format('woff2'),
+        url('GoogleSansCode-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,41 @@
+.button.generic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: max-content;
+  padding-inline: 24px;
+  border-radius: 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  gap: 10px;
+  @media (max-width: 900px) {
+    font-size: 14px;
+  }
+  &.solid {
+    &.primary {
+      background: #3776aa;
+      color: white;
+    }
+    &.black {
+      background: #282d37;
+      color: white;
+    }
+  }
+  &.outlined {
+    background: transparent;
+    border: solid 2px;
+    &:hover {
+      background: rgba(0, 0, 0, 0.03);
+    }
+    &.primary {
+      border-color: #3776aa;
+      color: #3776aa;
+    }
+    &.black {
+      border-color: #282d37;
+      color: 282d37;
+    }
+  }
+}

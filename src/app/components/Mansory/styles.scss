@@ -1,0 +1,80 @@
+.mansory-wrapper {
+  display: grid;
+  grid-gap: 16px;
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .mansory-item {
+    cursor: pointer;
+    img {
+      border-radius: 20px;
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+  }
+  .mansory-modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    z-index: 4;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding-block: 16px;
+    &.active {
+      display: flex;
+    }
+    .btn-close {
+      color: white;
+      position: absolute;
+      right: 16px;
+      top: 16px;
+      cursor: pointer;
+      img {
+        width: 30px;
+      }
+    }
+    .mansory-modal-content {
+      width: 100%;
+      max-height: 100%;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      &::-webkit-scrollbar {
+        width: 12px;
+      }
+
+      &::-webkit-scrollbar-track {
+        border-radius: 0;
+        background: transparent;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        border-radius: 0;
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.1);
+      }
+      img {
+        width: 50%;
+      }
+      @media (max-width: 1024px) {
+        padding-inline: 16px;
+        &::-webkit-scrollbar {
+          width: 6px;
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

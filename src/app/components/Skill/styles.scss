@@ -1,0 +1,25 @@
+.skill-wrapper {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  background: #f2f4f9;
+  height: 80px;
+  width: max-content;
+  border-radius: 20px;
+  padding-inline: 32px;
+  @media (max-width: 900px) {
+    height: 40px;
+    gap: 10px;
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  span {
+    font-size: 24px;
+    font-weight: 600;
+    @media (max-width: 900px) {
+      font-size: 18px;
+    }
+  }
+}
