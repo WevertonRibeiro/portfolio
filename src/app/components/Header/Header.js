@@ -32,7 +32,7 @@ export default function Header() {
               <a href="#">Sobre</a>
             </li> */}
             <li>
-              <a href="#projects">Projetos</a>
+              <Link href="/projetos">Projetos</Link>
             </li>
             {/* <li>
               <a href="#">Exp</a>
@@ -74,7 +74,7 @@ export default function Header() {
                     <a href="#">Sobre</a>
                   </li> */}
                   <li>
-                    <a href="#projects">Projetos</a>
+                    <Link href="/projetos" onClick={toggleMenu}>Projetos</Link>
                   </li>
                   {/* <li>
                     <a href="#">Exp</a>
